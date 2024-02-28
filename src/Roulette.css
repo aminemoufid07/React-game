@@ -1,0 +1,50 @@
+.input-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.input-container label {
+  margin-right: 10px;
+  color: #b4deec;
+}
+.input-container input {
+  margin-right: 10px;
+  color: black;
+}
+.spin-button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.result-message {
+  text-align: center;
+  margin-top: 10px; /* Ajustez la marge selon vos besoins */
+  color: #b4deec;
+}
+.minimized-roulette {
+  transform: scale(
+    0.7
+  ); /* Vous pouvez ajuster la valeur de l'échelle selon vos besoins */
+  transform-origin: 43%; /* Assurez-vous que l'origine de la transformation est au centre */
+  transition: transform 0.3s ease-in-out; /* Ajoutez une transition pour une animation fluide */
+  position: absolute;
+  margin-top: -35px;
+  height: 220px;
+}
+.roulette-container {
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  overflow: hidden; /* Empêche le contenu de déborder et d'ajuster la hauteur */
+}
+.error-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b4deec;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  z-index: 1000; /* Assurez-vous que la pop-up est au-dessus des autres éléments */
+}
